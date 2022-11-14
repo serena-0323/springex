@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <context-param>
+        <!--        ApplicationContext 환경 설정에 대한 정보의 위치는 여기에 있다 라고 지정해주는 부분-->
+        <param-name>contextConfigLocation</param-name>
+        <!--        root-contex.xml 파일에는 Context 환경설정과 관련된 정보를 입력해놓을 것이다.-->
+        <param-value>/WEB-INF/root-context.xml</param-value>
+    </context-param>
+    <listener>
+        <!--        Context를 감시할 listener로 쓸 클래스의 경로를 지정해주는 부분-->
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <!--    이 설정을 해두면 톰캣을 실행하면 스프링과 관련된 로그가 기록되면서 실행됨을 확인할 수 있다.
+            톰캣과 스프링 컨테이너 연동 구조 완성-->
+
+    <!--    DispatcherServlet 등록 = FrontController 가 될 Servlet -->
+    <servlet>
+        <servlet-name>appServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/servlet-context.xml</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>throwExceptionIfNoHandlerFound</param-name> <!--not found 예외처리-->
+            <param-value>true</param-value>
+        </init-param>
+
+        <!--        tomcat server loading 시에 클래스를 미리 loading 하라는 의미-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>appServlet</servlet-name>
+        <!--        모든 경로의 요청을 다 받아야 하니까 / 표시를 해준다.-->
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
