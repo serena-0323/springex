@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="" />
+    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -319,8 +322,16 @@
       <workItem from="1668060499794" duration="8346000" />
       <workItem from="1668127199002" duration="21485000" />
       <workItem from="1668385794454" duration="22819000" />
-      <workItem from="1668416079241" duration="306000" />
+      <workItem from="1668416079241" duration="1792000" />
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1668416630729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668416630729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +347,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
