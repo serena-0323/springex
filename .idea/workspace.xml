@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="ok" />
+    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +103,7 @@
       <recent name="C:\spring5fs-master\springex" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\spring5fs-master\springex\src\main\webapp\WEB-INF\views\todo" />
       <recent name="C:\spring5fs-master\springex\src\main\webapp\WEB-INF" />
       <recent name="C:\spring5fs-master\springex\src\main\java\net\ict\springex\sample" />
     </key>
@@ -322,7 +333,8 @@
       <workItem from="1668060499794" duration="8346000" />
       <workItem from="1668127199002" duration="21485000" />
       <workItem from="1668385794454" duration="22819000" />
-      <workItem from="1668416079241" duration="1792000" />
+      <workItem from="1668416079241" duration="2538000" />
+      <workItem from="1668473701265" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1668416630729</created>
@@ -331,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668416630729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <created>1668417929921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668417929937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
