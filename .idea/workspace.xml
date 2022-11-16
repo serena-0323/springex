@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="ok2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/formatter/CheckboxFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/PageRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/PageResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fe09eb3-d941-43ef-b793-46816628c59a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fe09eb3-d941-43ef-b793-46816628c59a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/service/TodoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/service/TodoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.ict.springex.service.TodoServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/net.ict.springex.service.TodoServiceTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/net.ict.springex.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/net.ict.springex.service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.ict.springex.service.TodoServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-net.ict.springex.service.TodoServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/ict/springex/service/TodoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/service/TodoServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3033b8d0-0857-465b-b5b5-907d55b97be6" name="Changes" comment="ok3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -405,7 +347,7 @@
       <workItem from="1668416079241" duration="2538000" />
       <workItem from="1668473701265" duration="5878000" />
       <workItem from="1668480068248" duration="18363000" />
-      <workItem from="1668558654019" duration="12335000" />
+      <workItem from="1668558654019" duration="12823000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1668416630729</created>
@@ -428,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668474564538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ok3">
+      <created>1668579485773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668579485773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +397,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="ok2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok2" />
+    <MESSAGE value="ok3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
