@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <context-param>
+        <context-param>
         <!--        ApplicationContext 환경 설정에 대한 정보의 위치는 여기에 있다 라고 지정해주는 부분-->
         <param-name>contextConfigLocation</param-name>
         <!--        root-contex.xml 파일에는 Context 환경설정과 관련된 정보를 입력해놓을 것이다.-->
@@ -40,4 +40,17 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <filter>
+        <filter-name>encoding</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>encoding</filter-name>
+        <servlet-name>appServlet</servlet-name>
+    </filter-mapping>
 </web-app>

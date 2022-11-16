@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.208s</div>
+<div class="counter">0.185s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testRegister()</td>
-<td class="success">0.208s</td>
+<td class="success">testPaging()</td>
+<td class="success">0.185s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,13 +87,22 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>05:06:46  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-05:06:46  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78c7f9b3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6f8d7714, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e6b9a95, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d6f623d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@aa21042, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e93f3d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4cee7fa0]
-05:06:47  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-05:06:47  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@25290bca
-05:06:47  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-05:06:47  INFO [net.ict.springex.service.TodoServiceImpl] org.modelmapper.ModelMapper@5626d18c
-05:06:48  INFO [net.ict.springex.service.TodoServiceImpl] TodoVO(tno=null, title=Test TodoDTO...., dueDate=2022-11-14, finished=false, writer=ict01)
+<pre>12:06:07  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:06:07  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13e698c7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@aed0151, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@267bbe1a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f12e153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@389562d6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5a101b1c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2160e52a]
+12:06:08  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+12:06:08  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54e3658c
+12:06:08  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] PageResponseDTO(page=1, size=10, total=378, start=1, end=10, prev=false, next=true, dtoList=[TodoDTO(tno=442, title=하루가 길어요, dueDate=2022-11-19, finished=false, writer=벌써 겨울이라니), TodoDTO(tno=441, title=오늘은수요일이 아닙니다., dueDate=2022-11-16, finished=false, writer=정), TodoDTO(tno=440, title=Test TodoDTO...., dueDate=2022-11-14, finished=false, writer=ict01), TodoDTO(tno=439, title=내몸에 총알 자국이 몇갠지 아십니까, dueDate=2022-12-25, finished=false, writer=일천구백 십이년 하얼빈에서 한발. 일펀구백 십칠년 청해에서 한발 .총알 자국이 두우개지요), TodoDTO(tno=438, title=바나나차차, dueDate=2022-12-12, finished=false, writer=바나나 차차 바나나 차차 바나나 차차차차차 차차 바나나 차차 바나나 차차 바나나 차차차), TodoDTO(tno=437, title=빅맥쏭, dueDate=2022-12-21, finished=false, writer=참깨빵위에 순쇠고기 패티두장 특별한 소스 양상추 치즈 피클 양파까아지 빠랍빱빠빠), TodoDTO(tno=436, title=하루가 길어요, dueDate=2022-11-19, finished=false, writer=벌써 겨울이라니), TodoDTO(tno=435, title=오늘은수요일이 아닙니다., dueDate=2022-11-16, finished=false, writer=정), TodoDTO(tno=434, title=Test TodoDTO...., dueDate=2022-11-14, finished=false, writer=ict01), TodoDTO(tno=433, title=내몸에 총알 자국이 몇갠지 아십니까, dueDate=2022-12-25, finished=false, writer=일천구백 십이년 하얼빈에서 한발. 일펀구백 십칠년 청해에서 한발 .총알 자국이 두우개지요)])
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=442, title=하루가 길어요, dueDate=2022-11-19, finished=false, writer=벌써 겨울이라니)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=441, title=오늘은수요일이 아닙니다., dueDate=2022-11-16, finished=false, writer=정)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=440, title=Test TodoDTO...., dueDate=2022-11-14, finished=false, writer=ict01)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=439, title=내몸에 총알 자국이 몇갠지 아십니까, dueDate=2022-12-25, finished=false, writer=일천구백 십이년 하얼빈에서 한발. 일펀구백 십칠년 청해에서 한발 .총알 자국이 두우개지요)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=438, title=바나나차차, dueDate=2022-12-12, finished=false, writer=바나나 차차 바나나 차차 바나나 차차차차차 차차 바나나 차차 바나나 차차 바나나 차차차)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=437, title=빅맥쏭, dueDate=2022-12-21, finished=false, writer=참깨빵위에 순쇠고기 패티두장 특별한 소스 양상추 치즈 피클 양파까아지 빠랍빱빠빠)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=436, title=하루가 길어요, dueDate=2022-11-19, finished=false, writer=벌써 겨울이라니)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=435, title=오늘은수요일이 아닙니다., dueDate=2022-11-16, finished=false, writer=정)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=434, title=Test TodoDTO...., dueDate=2022-11-14, finished=false, writer=ict01)
+12:06:09  INFO [net.ict.springex.service.TodoServiceTest] TodoDTO(tno=433, title=내몸에 총알 자국이 몇갠지 아십니까, dueDate=2022-12-25, finished=false, writer=일천구백 십이년 하얼빈에서 한발. 일펀구백 십칠년 청해에서 한발 .총알 자국이 두우개지요)
 </pre>
 </span>
 </div>
@@ -105,7 +114,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at 2022. 11. 14. 오후 5:06:48</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 2022. 11. 16. 오후 12:06:09</p>
 </div>
 </div>
 </body>
